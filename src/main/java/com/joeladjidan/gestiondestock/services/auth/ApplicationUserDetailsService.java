@@ -25,7 +25,7 @@ public class ApplicationUserDetailsService implements UserDetailsService {
 
   @Override
   public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-    log.info("Beggin loadUserByUsername is email {}", email);
+    log.info("Begin loadUserByUsername is email {}", email);
     
     UtilisateurDto utilisateur = service.findByEmail(email);
     
