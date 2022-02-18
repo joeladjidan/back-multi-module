@@ -13,7 +13,6 @@ import com.joeladjidan.gestiondestock.dto.auth.AuthenticationRequest;
 import com.joeladjidan.gestiondestock.dto.auth.AuthenticationResponse;
 
 @Api("authentication")
-@CrossOrigin(origins = "http://localhost:4200")
 public interface AuthenticationApi {
 
   @PostMapping(AUTHENTICATION_ENDPOINT + "/authenticate")
