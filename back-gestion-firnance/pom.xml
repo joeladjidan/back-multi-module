@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.joeladjidan</groupId>
-        <artifactId>back-parent</artifactId>
+        <artifactId>back-multi-module</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>

@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.joeladjidan</groupId>
-	<artifactId>back-parent</artifactId>
+	<artifactId>back-multi-module</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>back-parent</name>
+	<name>back-multi-module</name>
 	<packaging>pom</packaging>
 
 	<!-- sub modules -->
